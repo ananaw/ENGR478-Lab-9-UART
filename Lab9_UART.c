@@ -163,6 +163,7 @@ int main(void)
 	// globally enable interrupt, enable processor interrupt
 	IntMasterEnable();
 	
+	// print Initial prompt message
 	char str[] = "Turn ON/off LED by entering key R, r, B, b, G, or g: \n\r";
 	for (int i = 0; i<sizeof(str); i++)
 	{
